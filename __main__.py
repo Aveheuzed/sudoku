@@ -96,3 +96,4 @@ if __name__ == "__main__" :
     main.resizable(False,False)
     s = Sudoku(dict(default=None))
     sw = SudokuLayer(main, s)
+    main.mainloop()
